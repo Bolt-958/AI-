@@ -74,6 +74,10 @@ hermes setup          # 重新执行向导模式
 ```shell
 npm install -g hermes-web-ui
 hermes-web-ui start
+#如果遇到npm命令无法执行，可试试以下命令
+##当前用户开放执行权限
+Set-ExecutionPolicy -Scope CurrentUser -ExecutionPolicy RemoteSigned
+npm -version
 ```
 
 > 安装后访问：[http://localhost:8648](http://localhost:8648)
